@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="761b8713-c375-4e90-b254-1b89c572c614" name="Default Changelist" comment="" />
+    <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/The-Joy-of-Kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KonanWorkspace">
     <executables />
   </component>
-  <component name="ProjectId" id="1aeH9o6II1gxXlN0ORjmIgwAVOd" />
+  <component name="ProjectId" id="1aeIeHl6eVZE8SnVEV19IPgAu62" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,38 +40,40 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
+    <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="The-Joy-of-Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.HelloKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="761b8713-c375-4e90-b254-1b89c572c614" name="Default Changelist" comment="" />
-      <created>1587088990706</created>
+      <changelist id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="" />
+      <created>1587089727043</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587088990706</updated>
-      <workItem from="1587088993795" duration="53000" />
+      <updated>1587089727043</updated>
+      <workItem from="1587089729674" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2044" y="141" key="new project wizard" timestamp="1587089045519">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2044" y="141" key="new project wizard/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089045519" />
   </component>
 </project>
