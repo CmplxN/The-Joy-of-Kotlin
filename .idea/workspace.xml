@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/The-Joy-of-Kotlin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_1/example/Example_1_2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -69,11 +67,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587089727043</updated>
-      <workItem from="1587089729674" duration="67000" />
+      <workItem from="1587089729674" duration="139000" />
+      <workItem from="1587171648247" duration="4969000" />
+      <workItem from="1587180544550" duration="6260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587176620850">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1587176620850">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1587176620850">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868179" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1587176620850">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
+    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587182110954">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1587182110954" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1587182089612">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587182089612" />
   </component>
 </project>
