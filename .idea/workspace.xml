@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_1/example/Example_1_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_2/example/Example_2_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_2/example/Example_2_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_2/example/Example_2_4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_2/example/Example_2_6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_2/example/Example_2_7.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_1/example/Example_1_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_1/example/Example_1_2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +41,48 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kotlin/KotlinLab01-JVM" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Example_2_7Kt">
+    <configuration name="Example_2_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="The-Joy-of-Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_2.example.Example_2_1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_2_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="The-Joy-of-Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_2.example.Example_2_4Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_2_7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="The-Joy-of-Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_2.example.Example_2_7Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -53,6 +98,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Example_2_7Kt" />
+        <item itemvalue="Kotlin.Example_2_4Kt" />
+        <item itemvalue="Kotlin.Example_2_1Kt" />
         <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
@@ -69,7 +117,10 @@
       <updated>1587089727043</updated>
       <workItem from="1587089729674" duration="139000" />
       <workItem from="1587171648247" duration="4969000" />
-      <workItem from="1587180544550" duration="6260000" />
+      <workItem from="1587180544550" duration="8967000" />
+      <workItem from="1587194670977" duration="89000" />
+      <workItem from="1587260313498" duration="27000" />
+      <workItem from="1587260352844" duration="15636000" />
     </task>
     <servers />
   </component>
@@ -77,30 +128,38 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587176620850">
+    <state x="361" y="73" key="#Plugins" timestamp="1587260365042">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="73" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1587260365042" />
+    <state x="542" y="187" key="FileChooserDialogImpl" timestamp="1587278333961">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587278333961" />
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587289501300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1587176620850">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587289501300" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1587289501300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1587176620850">
+    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587289501300" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1587289501300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868179" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1587176620850">
+    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587289501300" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1587289501300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587176620850" />
-    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587182110954">
+    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587289501300" />
+    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587285291536">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1587182110954" />
+    <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1587285291536" />
     <state x="431" y="181" key="search.everywhere.popup" timestamp="1587182089612">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

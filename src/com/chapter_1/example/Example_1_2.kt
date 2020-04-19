@@ -56,12 +56,7 @@ fun buyDonut1(creditCard: CreditCard): Purchase1{
 class Purchase(val donuts: List<Donut>, val payment: Payment)
 fun buyDonuts(quantity: Int = 1, creditCard: CreditCard) : Purchase =
         Purchase(List(quantity){ Donut() }, Payment(creditCard, Donut.price * quantity))
-
-//-----------------------------------------------------------------//
-//example test code
-
-annotation class Test
-
+/*
 class DonutShopKtTest{
     @Test
     fun testBuyDonuts(){
@@ -71,3 +66,4 @@ class DonutShopKtTest{
         assertEquals(creditCard, purchase.payment.creditCard)
     }
 }
+ */
