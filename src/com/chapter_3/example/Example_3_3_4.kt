@@ -42,6 +42,22 @@ data class WeightN private constructor(private val value: Double){ // 실제론 
     }
 }
 
+///////////////////////////invoke///////////////////////////
+/*
+    람다는 결국 invoke 함수 한개만 가지는 객체지 않을까?
+    그리고 개발자는 invoke를 호출하는데 알아차리지 못할뿐?
+ */
+
+val toUpperCase = { str: String  -> str.toUpperCase() }
+
+fun tUP(str: String) = str.toUpperCase()
+
+val toUpperCasE = object : Function1<String, String> {
+    override fun invoke(p1: String): String {
+        return p1.toUpperCase()
+    }
+}
+
 fun main(){
     val toothPaste = ProducTN("Tooth Paste", PriceN(1.5), WeightN(0.5))
     val toothBrush = ProducTN("Tooth Brush", PriceN(3.5), WeightN(0.3))
@@ -51,4 +67,7 @@ fun main(){
     val price = orderLines.fold(PriceN.identity) {a,b->a+b.amount() } // 이제 여기에 weight하면 컴파일에러
     println("Total price: $price")
     println("Total weight: $weight")
+
+    listOf("a","b","c").map(::tUP)
+    listOf("a","b","c").map(toUpperCase)
 }

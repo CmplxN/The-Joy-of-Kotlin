@@ -39,4 +39,4 @@
    
   
   #Todo
-  - invoke()
+  - [invoke()](https://wooooooak.github.io/kotlin/2019/03/21/kotlin_invoke/)
