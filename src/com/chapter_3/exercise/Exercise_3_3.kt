@@ -11,3 +11,6 @@ val add: intBinOp = {x: Int ->
         x + y
     }
 }
+fun main(){
+    println(add(2)(3))
+}

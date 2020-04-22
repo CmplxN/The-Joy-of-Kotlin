@@ -13,8 +13,8 @@ val compose = {f:(Int)->Int ->
     }
 }
 typealias intUnaryOp = (Int) -> Int
-val square: intUnaryOp = {it*it}
-val triple: intUnaryOp = {3*it}
+val square: intUnaryOp = {it*it} // 익명 함수에 이름 부여
+val triple: intUnaryOp = {3*it} // 익명 함수에 이름 부여
 val squareOfTriple: intUnaryOp = compose(square)(triple)
 
 fun main(){
