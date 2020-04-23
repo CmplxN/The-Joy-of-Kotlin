@@ -48,7 +48,7 @@ data class WeightN private constructor(private val value: Double){ // 실제론 
     그리고 개발자는 invoke를 호출하는데 알아차리지 못할뿐?
  */
 
-val toUpperCase = { str: String  -> str.toUpperCase() }
+val toUpperCasee = { str: String  -> str.toUpperCase() }
 
 fun tUP(str: String) = str.toUpperCase()
 
@@ -69,5 +69,5 @@ fun main(){
     println("Total weight: $weight")
 
     listOf("a","b","c").map(::tUP)
-    listOf("a","b","c").map(toUpperCase)
+    listOf("a","b","c").map(toUpperCasee)
 }

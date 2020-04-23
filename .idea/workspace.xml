@@ -20,8 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/example/Example_4_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/example/Example_4_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/example/Example_4_3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_4/exercise/Exercise_4_6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chapter_3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_3/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_3/example/Example_3_3_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_3/example/Example_3_3_4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,67 +68,67 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kotlin/KotlinLab01-JVM" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin.Example_3_3_4Kt">
-    <configuration name="Example_3_3_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Exercise_4_6Kt">
+    <configuration name="Exercise_4_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.chapter_3.example.Example_3_3_3Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_4.exercise.Exercise_4_2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_3_3_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise_4_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.chapter_3.example.Example_3_3_4Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_4.exercise.Exercise_4_3Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise_3_10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise_4_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.chapter_3.exercise.Exercise_3_10Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_4.exercise.Exercise_4_4Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise_3_11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise_4_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.chapter_3.exercise.Exercise_3_11Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_4.exercise.Exercise_4_5Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise_3_8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise_4_6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.chapter_3.exercise.Exercise_3_8Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.chapter_4.exercise.Exercise_4_6Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Example_3_3_4Kt" />
-        <item itemvalue="Kotlin.Example_3_3_3Kt" />
-        <item itemvalue="Kotlin.Exercise_3_11Kt" />
-        <item itemvalue="Kotlin.Exercise_3_10Kt" />
-        <item itemvalue="Kotlin.Exercise_3_8Kt" />
+        <item itemvalue="Kotlin.Exercise_4_6Kt" />
+        <item itemvalue="Kotlin.Exercise_4_5Kt" />
+        <item itemvalue="Kotlin.Exercise_4_4Kt" />
+        <item itemvalue="Kotlin.Exercise_4_3Kt" />
+        <item itemvalue="Kotlin.Exercise_4_2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +165,9 @@
       <workItem from="1587432471292" duration="12588000" />
       <workItem from="1587517375349" duration="13604000" />
       <workItem from="1587532323072" duration="2916000" />
-      <workItem from="1587535750812" duration="562000" />
+      <workItem from="1587535750812" duration="590000" />
+      <workItem from="1587551067267" duration="2063000" />
+      <workItem from="1587603869253" duration="16970000" />
     </task>
     <servers />
   </component>
@@ -182,30 +195,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1587368260379" />
+    <state x="398" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587621891454">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="398" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1587621891454" />
     <state x="542" y="187" key="FileChooserDialogImpl" timestamp="1587518803377">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587518803377" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587535242709">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587622593359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587535242709" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1587535242709">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587622593359" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1587622593359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587535242709" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1587535242709">
+    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587622593359" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1587622593359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868179" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587535242709" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1587535242709">
+    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587622593359" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1587622593359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587535242709" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587622593359" />
     <state x="300" y="77" key="SettingsEditor" timestamp="1587518693147">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -214,9 +231,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1587285291536" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587368293941">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587619327927">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587368293941" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587619327927" />
   </component>
 </project>
