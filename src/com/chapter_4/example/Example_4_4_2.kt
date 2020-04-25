@@ -63,4 +63,9 @@ fun main(){
     println("$r2 $t2")
     println("$r3 $t3")
     println("$r4 $t4")
+
+    println(Memoizer.memoize(::longComputation).hashCode())
+    println(Memoizer.memoize(::longComputation).hashCode())
+    println(443308702.hashCode())
+    println(443308702.hashCode())
 }
