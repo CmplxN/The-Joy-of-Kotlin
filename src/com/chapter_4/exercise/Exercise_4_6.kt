@@ -2,6 +2,7 @@ package com.chapter_4.exercise
 
 /*
     foldRight을 작성하고, 이를 사용해 toString을 구현하라.
+    꼬리재귀로 하지 않아도 된다.
  */
 
 fun <T,U> foldRight(list: List<T>, rtn: U, f:(T,U)->U):U=
