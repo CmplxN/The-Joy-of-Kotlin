@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../080208" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Kotlin.Example_4_4_3Kt">
@@ -162,7 +165,10 @@
       <workItem from="1587776445702" duration="17579000" />
       <workItem from="1587803906267" duration="141000" />
       <workItem from="1587813383378" duration="17000" />
-      <workItem from="1587883675163" duration="4414000" />
+      <workItem from="1587883675163" duration="4669000" />
+      <workItem from="1587904913010" duration="48000" />
+      <workItem from="1587905518017" duration="949000" />
+      <workItem from="1587946467806" duration="11889000" />
     </task>
     <servers />
   </component>
@@ -186,18 +192,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="73" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1587260365042" />
-    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1587368260379">
+    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1587956197550">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1587368260379" />
+    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1587956197550" />
     <state x="398" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587621891454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="398" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1587621891454" />
-    <state x="542" y="187" key="FileChooserDialogImpl" timestamp="1587813395603">
+    <state x="542" y="187" key="FileChooserDialogImpl" timestamp="1587955457805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587813395603" />
+    <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587955457805" />
     <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1587795936659">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -218,6 +224,10 @@
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
     <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587795936659" />
+    <state x="333" y="51" key="NewModule_or_Project.wizard" timestamp="1587955424074">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="333" y="51" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1587955424074" />
     <state x="300" y="77" key="SettingsEditor" timestamp="1587518693147">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -226,6 +236,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="345" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1587285291536" />
+    <state x="584" y="200" key="refactoring.ChangeSignatureDialog" timestamp="1587954242709">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="584" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1587954242709" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587619327927">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
