@@ -8,20 +8,20 @@ import com.chapter_5.exercise.MyList
  */
 
 fun <T,U> operation(list: MyList<T>, identity: U, operator: (T) -> (U) -> U): U =
-        when(list){
+        when(list) {
             MyList.Nil -> identity
-            is MyList.Cons -> operator(list.head)(operation(list.tail,identity,operator))
+            is MyList.Cons -> operator(list.head)(operation(list.tail, identity, operator))
         }
 
 fun <T,U> foldRight(list: MyList<T>, identity: U, f: (T) -> (U) -> U): U =
-        when(list){
+        when(list) {
             MyList.Nil -> identity
-            is MyList.Cons -> f(list.head)(operation(list.tail,identity,f))
+            is MyList.Cons -> f(list.head)(foldRight(list.tail, identity, f))
         }
 
-fun <T,U> sum(list:MyList<Int>): Int =
+fun <T,U> sumr(list:MyList<Int>): Int =
         foldRight(list, 0){x->{y->x+y}}
-fun <T,U> product(list:MyList<Double>): Double =
+fun <T,U> productr(list:MyList<Double>): Double =
         foldRight(list, 1.0){x->{y->x*y}}
 
 fun main(){

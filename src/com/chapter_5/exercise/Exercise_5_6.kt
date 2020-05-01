@@ -13,12 +13,12 @@ sealed class List<A> {
 
     abstract fun init(): List<A>
 
-    fun setHead(a: @UnsafeVariance A): List<A> = when (this) {
+    fun setHead(a: A): List<A> = when (this) {
         is Cons -> Cons(a, this.tail)
         else -> throw IllegalStateException("setHead called on an empty list")
     }
 
-    fun cons(a: @UnsafeVariance A): List<A> = Cons(a, this)
+    fun cons(a: A): List<A> = Cons(a, this)
 
     abstract fun concat(list: List<A>): List<A>
 

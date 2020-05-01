@@ -5,7 +5,7 @@ package com.chapter_5.exercise
  */
 
 // Exercise_5_7
-fun product(ints: MyList<Double>): Double {
+fun productr(ints: MyList<Double>): Double {
     fun product_(rtn: Double, list_:MyList<Double>): Double = when(list_){
         MyList.Nil -> rtn
         is MyList.Cons -> product_(rtn * list_.head, list_.tail)

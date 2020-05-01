@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/example/Example_5_6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_7.kt" afterDir="false" />
@@ -63,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../080208" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin.HelloKt">
+  <component name="RunManager" selected="Kotlin.Example_5_6Kt">
     <configuration name="Example_4_4_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.HelloKt" />
         <item itemvalue="Kotlin.Example_5_6Kt" />
+        <item itemvalue="Kotlin.HelloKt" />
         <item itemvalue="Kotlin.Exercise_5_1Kt" />
         <item itemvalue="Kotlin.Example_4_4_3Kt" />
         <item itemvalue="Kotlin.Example_4_4_2Kt" />
@@ -180,6 +180,7 @@
       <workItem from="1588254757750" duration="2602000" />
       <workItem from="1588260881605" duration="164000" />
       <workItem from="1588285646724" duration="1167000" />
+      <workItem from="1588305228017" duration="9630000" />
     </task>
     <servers />
   </component>
