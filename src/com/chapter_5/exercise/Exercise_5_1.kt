@@ -45,7 +45,7 @@ sealed class MyList<out A> {
 
     internal class Cons<A>(internal val head: A, internal val tail: MyList<A>) : MyList<A>() {
         override fun isEmpty(): Boolean = false
-        override fun toString(): String = "[${toString("", this)}NIL"
+        override fun toString(): String = "[${toString("", this)}NIL]"
         private tailrec fun toString(rtn: String, list: MyList<A>): String =
                 when (list) {
                     is Nil -> rtn
@@ -92,22 +92,6 @@ sealed class MyList<out A> {
     abstract fun init(): MyList<A>
 }
 
-// Exercise_5_6
-fun sum(ints: MyList<Int>): Int = when(ints){
-    MyList.Nil -> 0
-    is MyList.Cons -> ints.head + sum(ints.tail)
-}
-
-// Exercise_5_7
-fun product(ints: MyList<Double>): Double {
-    fun product_(rtn: Double, list_:MyList<Double>): Double = when(list_){
-        MyList.Nil -> rtn
-        is MyList.Cons -> product_(rtn * list_.head, list_.tail)
-    }
-    return product_(1.0,ints)
-}
-
 fun main(){
-    val test = MyList(1.0, 2.0, 3.0)
-    println(product(test))
+
 }

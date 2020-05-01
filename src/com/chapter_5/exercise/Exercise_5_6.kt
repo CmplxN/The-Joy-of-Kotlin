@@ -100,5 +100,3 @@ fun sum(ints: List<Int>):Int = when(ints){
     is List.Cons -> ints.head + sum(ints.tail)
     else -> 0
 }
-
-
