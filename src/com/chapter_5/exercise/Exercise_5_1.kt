@@ -23,7 +23,7 @@ sealed class MyList<out A> {
         }
 
         // list1의 길이만큼 재귀. (스택 크기에 의한 제한 있음)
-        fun <A> concat(list1: MyList<A>, list2: MyList<A>): MyList<A> = when (list1) {
+        fun <A> concatO(list1: MyList<A>, list2: MyList<A>): MyList<A> = when (list1) {
             Nil -> list2
             is Cons -> concat(list1.tail, list2).cons(list1.head) // list1 맨 뒤부터 하나씩 list2 앞에 붙임
         }
@@ -55,6 +55,19 @@ sealed class MyList<out A> {
                     is Cons -> foldLeft(f(acc)(list.head), list.tail, f)
                 }
 
+        tailrec fun <A, B> coFoldRight(acc: B, list: MyList<A>, f: (A) -> (B) -> B): B =
+                when (list) {
+                    Nil -> acc
+                    is Cons -> coFoldRight(f(list.head)(acc), list.tail, f)
+                }
+
+        // Exercise_5_14
+        fun <A> concat(list1: MyList<A>, list2: MyList<A>): MyList<A> =
+                list1.coFoldRight(list2) { x -> { acc -> Cons(x, acc) } }
+        //list1.reverse().foldLeft(list2){u->{v->u.cons(v)}}
+
+        // Exercise_5_15
+        fun <A> flatten(list: MyList<MyList<A>>): MyList<A> = list.coFoldRight(Nil as MyList<A>) { x -> x::concat }
     }
 
     internal object Nil : MyList<Nothing>() {
@@ -122,12 +135,28 @@ sealed class MyList<out A> {
     // Exercise_5_10
     fun length(): Int = foldLeft(0) { x->{x+1} }
 
-    //Exercise_5_11
+    // Exercise_5_11
     fun reverse(): MyList<A> = foldLeft(Nil as MyList<A>/*반환타입 명시*/){acc -> {x ->acc.cons(x)}}
 
-    //Exercise_5_12
+    // Exercise_5_12
     fun <B> foldRightViaFoldLeft(identity: B, f: (A) -> (B) -> B): B =
-            this.reverse().foldLeft(identity){a->{b->f(b)(a)}}
+            reverse().foldLeft(identity){a->{b->f(b)(a)}}
+
+    // Exercise_5_13
+    fun <B> coFoldRight(acc: B, f: (A) -> (B) -> B): B = coFoldRight(acc,this,f)
+
+    // Exercise_5_18
+    fun <B> map(f: (A) -> B): MyList<B> = this.coFoldRight(Nil as MyList<B>){u->{v->v.cons(f(u))}}
+
+    // Exercise_5_19
+    fun filter(p: (A) -> Boolean): MyList<A> =
+            this.coFoldRight(Nil as MyList<A>){u->{v->if(p(u)) v.cons(u) else v}}
+
+    // Exercise_5_20
+    fun <B> flatMap(f: (A) -> MyList<B>): MyList<B> = flatten(map(f))
+
+    // Exercise_5_21
+    fun filterN(p: (A) -> Boolean): MyList<A> = flatMap{u->if(p(u)) MyList(u) else Nil}
 }
 
 // Exercise_5_10
@@ -136,6 +165,15 @@ fun sum(list: MyList<Int>): Int = list.foldLeft(0){acc->{x->acc+x}}
 
 fun product(list: MyList<Double>): Double = list.foldLeft(1.0){acc->{x->acc*x}}
 
-fun main(){
+// Exercise_5_16
+fun triple(list: MyList<Int>): MyList<Int> = list.coFoldRight(List.Nil as MyList<Int>){u->{v->v.cons(3*u)}}
 
+// Exercise_5_17
+fun doubleToString(list: MyList<Double>): MyList<String> =
+        list.coFoldRight(List.Nil as MyList<String>){u->{v->v.cons(u.toString())}}
+
+fun main(){
+    val test = MyList(1,2,3,4)
+    println(test)
+    println(test.reverse())
 }
