@@ -20,19 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_13.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_14.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_15.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_16.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_17.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_18.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_19.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_20.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/com/chapter_5/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_5/exercise/Exercise_5_1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../080208" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin.Exercise_5_1Kt">
+  <component name="RunManager" selected="Kotlin.HelloKt">
     <configuration name="Example_4_4_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="The-Joy-of-Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -135,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Exercise_5_1Kt" />
         <item itemvalue="Kotlin.HelloKt" />
+        <item itemvalue="Kotlin.Exercise_5_1Kt" />
         <item itemvalue="Kotlin.Example_5_6Kt" />
         <item itemvalue="Kotlin.Example_4_4_3Kt" />
         <item itemvalue="Kotlin.Example_4_4_2Kt" />
@@ -186,7 +179,10 @@
       <workItem from="1588285646724" duration="1167000" />
       <workItem from="1588305228017" duration="9715000" />
       <workItem from="1588342105199" duration="1262000" />
-      <workItem from="1588381341819" duration="13153000" />
+      <workItem from="1588381341819" duration="13371000" />
+      <workItem from="1588420739113" duration="8097000" />
+      <workItem from="1588467699101" duration="5618000" />
+      <workItem from="1588478446806" duration="4313000" />
     </task>
     <servers />
   </component>
@@ -210,10 +206,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="73" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1587260365042" />
-    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1588045459613">
+    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1588481044661">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1588045459613" />
+    <state x="536" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1588481044661" />
     <state x="398" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587621891454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -222,26 +218,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588038029081" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1588390543466">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1588473338095">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588390543466" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1588390543466">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588473338095" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1588473338095">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588390543466" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1588390543465">
+    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588473338095" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1588473338095">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868179" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588390543465" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1588390543466">
+    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588473338095" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1588473338095">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588390543466" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588473338095" />
     <state x="333" y="51" key="NewModule_or_Project.wizard" timestamp="1587955424074">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
