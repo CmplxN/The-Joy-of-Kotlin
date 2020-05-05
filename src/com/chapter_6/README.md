@@ -11,7 +11,11 @@
 - null의 전파를 막지는 않지만, 발생한 null의 처리 책임도 전파된다.
 
 # Option 타입
-- 
+- None과 Some으로 이루어진 sealed class
+- None: Option<Nothing> - 데이터가 null인 경우
+- Some: Option<T> - 데이터가 null이 아닌 경우
+- getOrElse - None인 경우 default 아니면 값을 반환
+- 이후 Option 합성으로 map, flatMap, filter 등..
 
 # ETC
 - Kotlin은 널 참조를 사용하나, 참조가 널이 될 수 있다는 사실을 컴파일러에게 알려줘야한다.

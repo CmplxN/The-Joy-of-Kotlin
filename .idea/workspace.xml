@@ -20,18 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4_1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-Joy-of-Kotlin/META-INF/The-Joy-of-Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4_1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_7.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,11 @@
       <workItem from="1588478446806" duration="4339000" />
       <workItem from="1588509356483" duration="8076000" />
       <workItem from="1588549865699" duration="1993000" />
-      <workItem from="1588551878468" duration="8874000" />
+      <workItem from="1588551878468" duration="9805000" />
+      <workItem from="1588562333944" duration="856000" />
+      <workItem from="1588580478609" duration="1383000" />
+      <workItem from="1588639745263" duration="2722000" />
+      <workItem from="1588645380414" duration="3330000" />
     </task>
     <servers />
   </component>
@@ -227,26 +228,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="542" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588038029081" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1588560928015">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom" timestamp="1588563190172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588560928015" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1588560928014">
+    <state width="1495" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588563190172" />
+    <state width="1495" height="212" key="GridCell.Tab.0.center" timestamp="1588563190172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588560928014" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1588560928014">
+    <state width="1495" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588563190172" />
+    <state width="1495" height="212" key="GridCell.Tab.0.left" timestamp="1588563190172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868179" />
-    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588560928014" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1588560928015">
+    <state width="1495" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588563190172" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right" timestamp="1588563190172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587089868180" />
-    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588560928015" />
+    <state width="1495" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588563190172" />
     <state x="333" y="51" key="NewModule_or_Project.wizard" timestamp="1587955424074">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

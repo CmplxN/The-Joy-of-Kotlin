@@ -1,5 +1,7 @@
 package com.chapter_6.example
 
+import kotlin.math.pow
+
 /*
     List와 비슷한 구조의 Option 타입을 만든다.
     데이터가 있는 겨웅와 없는 경우 두가지로 나뉜 sealed class로 구성한다.
@@ -63,13 +65,58 @@ fun getDefault(): Int = throw RuntimeException()
 
 fun max(list:List<Int>): Option<Int> = Option(list.max())
 
-fun main(){
-    val toons: Map<String, Toon> = mapOf(
-            "Mickey" to Toon("Mickey", "Mouse", "mickey@disney.com"),
-            "Minnie" to Toon("Minnie", "Mouse"),
-            "Donald" to Toon("Donald", "Duck", "donald@disney.com")
-    )
+// Exercise_6_7
 
+fun mean(list: List<Double>): Option<Double> = when{
+    list.isEmpty() -> Option()
+    else -> Option(list.sum() / list.size)
+}
+
+fun variance(list: List<Double>): Option<Double> =
+        mean(list).flatMap {m->
+            mean(list.map{
+                (it-m).pow(2)
+            })
+        }
+
+// Exercise_6_8
+fun <A, B> liftt(f: (A) -> B): (Option<A>) -> Option<B> = { it.map(f) }
+
+// Exercise_6_9
+fun <A, B> lift(f: (A) -> B): (Option<A>) -> Option<B> = {
+    try{
+        it.map(f)
+    } catch(e: Exception) {
+        Option()
+    }
+}
+
+// Exercise_6_10
+fun <A, B, C> map2(oa: Option<A>,
+                   ob: Option<B>,
+                   f: (A) -> (B) -> C): Option<C> =
+        oa.flatMap { a: A -> // Option형이 나오면 Option 안씌워서 반환
+            ob.map { b: B -> // 일반형이 나오면 Option 씌워서 반환
+                f(a)(b)
+            }
+        }
+
+data class Toon(val firstName:String,val lastName:String, val email: Option<String> = Option.invoke()) {
+    companion object {
+        operator fun invoke(firstName: String, lastName: String, email: String? = null) =
+                Toon(firstName, lastName, Option(email))
+    }
+}
+
+fun <K, V> Map<K, V>.getOption(key: K) = Option(this[key])
+
+val toons: Map<String, Toon> = mapOf(
+        "Mickey" to Toon("Mickey", "Mouse", "mickey@disney.com"),
+        "Minnie" to Toon("Minnie", "Mouse"),
+        "Donald" to Toon("Donald", "Duck", "donald@disney.com")
+)
+
+fun main(){
     val mickey = toons["Mickey"]?.email ?: "NoData"
     val minnie = toons["Minnie"]?.email ?: "NoData"
     val goofy = toons["Goofy"]?.email ?: "NoData"
