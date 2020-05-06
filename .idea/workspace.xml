@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7ae6230-5cff-43b3-a322-5e5a179de607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_12.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/example/Example_6_4_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chapter_6/exercise/Exercise_6_7.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,10 @@
       <workItem from="1588562333944" duration="856000" />
       <workItem from="1588580478609" duration="1383000" />
       <workItem from="1588639745263" duration="2722000" />
-      <workItem from="1588645380414" duration="3330000" />
+      <workItem from="1588645380414" duration="3500000" />
+      <workItem from="1588650315104" duration="1149000" />
+      <workItem from="1588683667043" duration="8162000" />
+      <workItem from="1588726978059" duration="4445000" />
     </task>
     <servers />
   </component>

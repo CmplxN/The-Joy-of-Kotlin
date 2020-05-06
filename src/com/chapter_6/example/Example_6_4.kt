@@ -1,5 +1,6 @@
 package com.chapter_6.example
 
+import com.chapter_5.exercise.MyList
 import kotlin.math.pow
 
 /*
@@ -100,6 +101,38 @@ fun <A, B, C> map2(oa: Option<A>,
                 f(a)(b)
             }
         }
+
+fun <A, B, C, D> map3(oa: Option<A>,
+                      ob: Option<B>,
+                      oc: Option<C>,
+                      f: (A) -> (B) -> (C) -> D): Option<D> =
+        oa.flatMap { a -> ob.flatMap { b -> oc.map { c -> f(a)(b)(c) } } }
+
+// Exercise_6_11
+fun <A> sequencE(list: MyList<Option<A>>): Option<MyList<A>> =
+        list.coFoldRight(Option(MyList())) { a: Option<A> ->
+            { b: Option<MyList<A>> ->
+                map2(a, b) { x: A ->
+                    { y: MyList<A> ->
+                        y.cons(x)
+                    }
+                }
+            }
+        }
+
+// Exercise_6_12
+fun <A, B> traverse(list: MyList<A> , f: (A) -> Option<B>): Option<MyList<B>> =
+        list.coFoldRight(Option(MyList())){a: A->
+            {b: Option<MyList<B>>->
+                map2(f(a),b){x->
+                    {y:MyList<B>->
+                        y.cons(x)
+                    }
+                }
+            }
+        }
+
+fun <A> sequence(list: MyList<Option<A>>): Option<MyList<A>> = traverse(list){it}
 
 data class Toon(val firstName:String,val lastName:String, val email: Option<String> = Option.invoke()) {
     companion object {
